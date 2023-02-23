@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:test_1/utils/routes.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -27,6 +28,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 TextFormField(
                   obscureText: true,
+
                   decoration: InputDecoration(
                     hintText: "Enter your Password",
                     labelText: "Password",
@@ -37,7 +39,9 @@ class LoginPage extends StatelessWidget {
                   child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                           backgroundColor: Color.fromRGBO(109, 98, 255, 1)),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, MyRoutes.homeRoute);
+                      },
                       child: Container(
                           height: 40,
                           width: 150,
