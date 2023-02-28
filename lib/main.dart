@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:test_1/screens/home_page.dart';
 import 'package:test_1/screens/login.dart';
 import 'package:test_1/utils/routes.dart';
+import 'package:test_1/widgets/themes.dart';
 
 void main(){
   runApp(MyApp());
@@ -14,11 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode:ThemeMode.light,
-      theme: ThemeData(
-        // canvasColor: Colors.greenAccent,
-        // primarySwatch: Colors.green,
-        fontFamily: GoogleFonts.lato().fontFamily,
-      ),
+      theme: MyTheme.LightTheme(context),
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(
         brightness: Brightness.dark,

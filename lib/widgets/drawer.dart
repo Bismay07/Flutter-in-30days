@@ -7,8 +7,9 @@ class MyDrawer extends StatelessWidget {
     final profileImage =
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxl7MISFSo0828ZZ0HsY0B2g_wRg-9fJRHLQ&usqp=CAU";
     return Drawer(
+      elevation: 100,
       child: Container(
-        color: Colors.blue,
+        color: Colors.blueGrey,
         child: ListView(
           children: [
             DrawerHeader(
@@ -16,6 +17,7 @@ class MyDrawer extends StatelessWidget {
               margin: EdgeInsets.zero,
               child: UserAccountsDrawerHeader(
                   margin: EdgeInsets.zero,
+                  decoration: BoxDecoration(color: Colors.black54),
                   accountName: Text("Bismay Bibhu Prakash"),
                   accountEmail: Text("bismayssp1540@gmail.com"),
                   currentAccountPicture: CircleAvatar(
