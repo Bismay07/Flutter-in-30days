@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   var app_no = 1;
@@ -9,7 +10,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Catalog App", style: TextStyle(color: Colors.white),),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
       body: Center(
         child: Container(
           child: Text("My $app_no app created by $developer."),
