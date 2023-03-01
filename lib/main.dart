@@ -8,7 +8,7 @@ import 'package:test_1/widgets/themes.dart';
 void main(){
   runApp(MyApp());
 }
-// today in day 11 we just learned about the "Context" and "Constraints".
+
 class MyApp extends StatelessWidget {
 
   @override

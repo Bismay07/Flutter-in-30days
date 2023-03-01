@@ -1,0 +1,100 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Iphone 12 pro",
+      "desc": "Apple iphone 12 generation.",
+      "price": 999,
+      "color": "33505a",
+      "image": "https://static.toiimg.com/thumb/resizemode-4,msid-78671027,imgsize-500,width-800/78671027.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Macbook Air M1",
+      "desc": "Apple Macbook Air with the new and fast M1 chip.",
+      "price": 1999,
+      "color": "33505a",
+      "image": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Iphone 13 pro max",
+      "desc": "Apple iphone 13 generation.",
+      "price": 1199,
+      "color": "33505a",
+      "image": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-pro-max-1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Microsoft Surface",
+      "desc": "The newest generation premium laptop.",
+      "price": 2199,
+      "color": "33505a",
+      "image": "https://m.media-amazon.com/images/I/61UGE9cZVlL._SL1500_.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Samsung S20 +",
+      "desc": "Samsung S20 ultra with 120 MP camera.",
+      "price": 1249,
+      "color": "33505a",
+      "image": "http://cdn.shopify.com/s/files/1/0037/7798/6630/products/71MjUkF9SwL._SL1500.jpg?v=1672737986"
+    },
+    {
+      "id": 6,
+      "name": "Iphone 14 ",
+      "desc": "Apple iphone 14 generation.",
+      "price": 2299,
+      "color": "33505a",
+      "image": "https://www.apple.com/v/iphone-14/d/images/overview/selfies/selfie_startframe__ex2suisayck2_large.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Ipad pro",
+      "desc": "Apple ipad 15 generation tablet.",
+      "price": 889,
+      "color": "33505a",
+      "image": "https://m.media-amazon.com/images/I/817doxCSq7S._SX522_.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Asus TUF Gaming",
+      "desc": "Asus next gen gaming laptop.",
+      "price": 3499,
+      "color": "33505a",
+      "image": "https://dlcdnwebimgs.asus.com/gain/a25d4381-0f1a-48bd-86d6-3bd59f017f19/"
+    },
+    {
+      "id": 9,
+      "name": "Oneplus 11 R",
+      "desc": "Oneplus 11 R with Snapdragon 999.",
+      "price": 459,
+      "color": "33505a",
+      "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202302/oneplus_11r_specs_copy-one_one.png?VersionId=6VitfZRffqHNsxB1igNh1o49wFsiBuQl"
+    },
+    {
+      "id": 10,
+      "name": "Oneplus Nord 2",
+      "desc": "Oneplus Nord 2 with Dimensity 1300 AI.",
+      "price": 350,
+      "color": "33505a",
+      "image": "http://cdn.shopify.com/s/files/1/0602/9334/9613/products/oneplus-nord-2-5g.jpg?v=1677134007"
+    },
+    {
+      "id": 11,
+      "name": "Samsung S20",
+      "desc": "Samsung S20 with 50 MP camera.",
+      "price": 350,
+      "color": "33505a",
+      "image": "http://cdn.shopify.com/s/files/1/0037/7798/6630/products/71MjUkF9SwL._SL1500.jpg?v=1672737986"
+    },
+    {
+      "id": 12,
+      "name": "Surface Studio",
+      "desc": "Microsoft's new and best ever studio for production line business.",
+      "price": 7999,
+      "color": "33505a",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlIqcDBSKQy4721VU6KxFOtaKsogRX8F93eg&usqp=CAU"
+    }
+  ]
+}
