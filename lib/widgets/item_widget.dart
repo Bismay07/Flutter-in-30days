@@ -11,12 +11,14 @@ class ItemWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Card(
+    return Card(
         child: ListTile(
-          leading: Image.network("https://www.apple.com/v/iphone-14/d/images/overview/selfies/selfie_startframe__ex2suisayck2_large.jpg"),
-          title: Text("IPhone14"),
-          subtitle: Text("Apple's new iPhone 14"),
-        trailing: Text("\$${item.price}"),
+          leading: Image.network(item.image),
+          title: Text(item.name),
+          subtitle: Text(item.desc),
+        trailing: Text("\$${item.price}", style: TextStyle(
+          fontWeight: FontWeight.bold, fontSize: 21
+        ),),
 
         ),
       );
